@@ -13,6 +13,8 @@ public class Livros extends LivroController {
     private long id;
     private String titulo;
     private String autor;
+
+    @Column(name = "ano_lancamento")
     private String anoLancamento;
     private String editora;
     private String descricao;
